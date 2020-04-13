@@ -5,7 +5,8 @@ A QRCode generator for Pharo
 Initial code was created by Jochen Rick and hosted on smalltalkhub.
 
 # usage
-Here is how a ticket generates its own QR code:
+initial quote on using: https://pharoweekly.wordpress.com/2018/04/13/qrcode-a-thank-you-note/
+
 ```smalltalk
 T123Ticket>>#asQRCode
 
@@ -49,7 +50,5 @@ T123Ticket >>#asJPEGBytes
 PluginBasedJPEGReadWriter putForm: self asQRCodeWithTextInTemplate onStream: out ]
 ```
 
-# reference
-initial quote on using: https://pharoweekly.wordpress.com/2018/04/13/qrcode-a-thank-you-note/
 
 
