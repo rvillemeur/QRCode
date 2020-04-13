@@ -1,8 +1,9 @@
 # QRCode
-A QRCode generator for Pharo
+A QRCode generator for Pharo. QR Code generation based on the latest specifications: ISO/IEC 18004:2006(E). It includes generation of MicroQR codes, though these are not recommended for general use because few readers are available. The generation code is meant as a service for other applications; however, a small Zinc web application is included to generate QR code images.
 
 # history
 Initial code was created by Jochen Rick and hosted on smalltalkhub.
+http://smalltalkhub.com/#!/~JochenRick/QRCode/
 
 # usage
 initial quote on using: https://pharoweekly.wordpress.com/2018/04/13/qrcode-a-thank-you-note/
