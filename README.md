@@ -7,6 +7,14 @@ A QRCode generator for Pharo. QR Code generation based on the latest specificati
 Initial code was created by Jochen Rick and hosted on smalltalkhub.
 http://smalltalkhub.com/#!/~JochenRick/QRCode/
 
+# loading
+```smalltalk
+Metacello new
+	baseline: 'QRCode';
+	repository: 'github://rvillemeur/QRCode/src';
+	load
+```
+
 # usage
 initial quote on using: https://pharoweekly.wordpress.com/2018/04/13/qrcode-a-thank-you-note/
 
