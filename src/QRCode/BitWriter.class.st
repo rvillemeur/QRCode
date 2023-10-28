@@ -108,7 +108,8 @@ BitWriter >> nextPutAlphanumeric: string [
 { #category : #encoding }
 BitWriter >> nextPutByte: string [
 	"One byte at a time."
-	string do: [ :char | self nextPut: char charCode bits: 8 ]
+	string do: [ :char | self nextPut: char asCharacter charCode bits: 8 ]
+	
 ]
 
 { #category : #encoding }
